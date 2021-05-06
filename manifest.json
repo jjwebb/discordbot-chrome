@@ -1,0 +1,28 @@
+{
+  "name": "Discordbot",
+  "description": "Spend your DiscordDollars on the web!",
+  "version": "0.1",
+  "manifest_version": 3,
+  "options_page": "options.html",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "notifications", "tabs", "scripting", "https://harvbot.jjwebb.repl.co/*"],
+  "action": {
+    "default_popup": "options.html",
+
+    "default_icon": {
+      "16":  "/images/Discord/discord16.png",
+      "32":   "images/Discord/discord32.png",
+      "48":   "images/Discord/discord48.png",
+      "128": "images/Discord/discord128.png"
+    }
+  },
+
+  "icons": {
+    "16":  "/images/Discord/discord16.png",
+    "32":   "images/Discord/discord32.png",
+    "48":   "images/Discord/discord48.png",
+    "128": "images/Discord/discord128.png"
+  }
+}
